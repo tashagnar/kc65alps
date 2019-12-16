@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kc65alps-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -318,34 +319,6 @@ Connection ~ 1250 2150
 Wire Wire Line
 	1250 2150 1250 2250
 $Comp
-L Switch:SW_Push SW?
-U 1 1 5DF9B2B6
-P 1550 1500
-F 0 "SW?" H 1550 1785 50  0000 C CNN
-F 1 "SW_Push" H 1550 1694 50  0000 C CNN
-F 2 "" H 1550 1700 50  0001 C CNN
-F 3 "~" H 1550 1700 50  0001 C CNN
-	1    1550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DF9C33C
-P 1200 1500
-F 0 "#PWR?" H 1200 1250 50  0001 C CNN
-F 1 "GND" H 1205 1327 50  0000 C CNN
-F 2 "" H 1200 1500 50  0001 C CNN
-F 3 "" H 1200 1500 50  0001 C CNN
-	1    1200 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 1500 1350 1500
-Wire Wire Line
-	1750 1500 1750 1600
-Wire Wire Line
-	1750 1600 1800 1600
-$Comp
 L Device:R_Small R?
 U 1 1 5DF9EA48
 P 1800 1250
@@ -378,4 +351,73 @@ Text GLabel 650  2600 0    50   Input ~ 0
 D+
 Text GLabel 650  2700 0    50   Input ~ 0
 D-
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 5DF707AD
+P 4600 1750
+F 0 "J?" H 4321 1846 50  0000 R CNN
+F 1 "AVR-ISP-6" H 4321 1755 50  0000 R CNN
+F 2 "" V 4350 1800 50  0001 C CNN
+F 3 " ~" H 3325 1200 50  0001 C CNN
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DF73003
+P 4500 1100
+F 0 "#PWR?" H 4500 950 50  0001 C CNN
+F 1 "+5V" H 4515 1273 50  0000 C CNN
+F 2 "" H 4500 1100 50  0001 C CNN
+F 3 "" H 4500 1100 50  0001 C CNN
+	1    4500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF73F7A
+P 4500 2300
+F 0 "#PWR?" H 4500 2050 50  0001 C CNN
+F 1 "GND" H 4505 2127 50  0000 C CNN
+F 2 "" H 4500 2300 50  0001 C CNN
+F 3 "" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 1550 2    50   Input ~ 0
+MISO
+Text GLabel 5200 1650 2    50   Input ~ 0
+MOSI
+Text GLabel 5250 1750 2    50   Input ~ 0
+SCK
+Text GLabel 5250 1850 2    50   Input ~ 0
+RST
+Wire Wire Line
+	5000 1550 5200 1550
+Wire Wire Line
+	5200 1650 5000 1650
+Wire Wire Line
+	5000 1750 5250 1750
+Wire Wire Line
+	5250 1850 5000 1850
+Wire Wire Line
+	4500 1250 4500 1100
+Wire Wire Line
+	4500 2150 4500 2300
+Text GLabel 1550 1600 0    50   Input ~ 0
+RST
+Wire Wire Line
+	1550 1600 1800 1600
+Text GLabel 3250 1900 2    50   Input ~ 0
+MISO
+Text GLabel 3250 1800 2    50   Input ~ 0
+MOSI
+Text GLabel 3250 1700 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	3050 1700 3250 1700
+Wire Wire Line
+	3250 1800 3050 1800
+Wire Wire Line
+	3050 1900 3250 1900
 $EndSCHEMATC
