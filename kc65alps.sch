@@ -492,4 +492,74 @@ Wire Wire Line
 	3200 3700 3500 3700
 Wire Wire Line
 	3700 3700 4000 3700
+Wire Notes Line
+	600  750  4200 750 
+Wire Notes Line
+	4200 750  4200 5300
+Wire Notes Line
+	4200 5300 600  5300
+Wire Notes Line
+	600  5300 600  750 
+Wire Notes Line
+	4650 750  6600 750 
+Wire Notes Line
+	6600 750  6600 2600
+Wire Notes Line
+	6600 2600 4650 2600
+Wire Notes Line
+	4650 2600 4650 750 
+Wire Notes Line
+	6750 750  6750 2200
+Wire Notes Line
+	6750 2200 8500 2200
+Wire Notes Line
+	8500 2200 8500 750 
+Wire Notes Line
+	8500 750  6750 750 
+Wire Notes Line
+	8750 750  8750 2200
+Wire Notes Line
+	8750 2200 10450 2200
+Wire Notes Line
+	10450 2200 10450 750 
+Wire Notes Line
+	10450 750  8750 750 
+Text Notes 650  700  0    50   ~ 0
+MCU
+Text Notes 4650 700  0    50   ~ 0
+AVR ISP Header
+Text Notes 6750 700  0    50   ~ 0
+JST-SR Connection
+Text Notes 8750 700  0    50   ~ 0
+Decoupling Capacitors
+Text Notes 7350 7500 0    50   ~ 10
+KC 65 Alps
+Text Notes 8150 7650 0    50   ~ 10
+191216
+Text Notes 10600 7650 0    50   ~ 10
+1
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5DF931BD
+P 6600 3450
+F 0 "MX?" H 6633 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 6633 3599 20  0000 C CNN
+F 2 "" H 5975 3425 60  0001 C CNN
+F 3 "" H 5975 3425 60  0001 C CNN
+	1    6600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DF95296
+P 6350 3700
+F 0 "D?" H 6350 3800 50  0000 R CNN
+F 1 "SOD-123" H 6800 3800 50  0000 R CNN
+F 2 "" V 6350 3700 50  0001 C CNN
+F 3 "~" V 6350 3700 50  0001 C CNN
+	1    6350 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 3600 6550 3600
 $EndSCHEMATC
