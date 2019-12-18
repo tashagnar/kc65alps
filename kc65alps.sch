@@ -20,7 +20,7 @@ U 1 1 5DF6F14B
 P 2600 3100
 F 0 "U1" H 2600 1211 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 2600 1120 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2600 3100 50  0001 C CIN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 2600 3100 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2600 3100 50  0001 C CNN
 	1    2600 3100
 	1    0    0    -1  

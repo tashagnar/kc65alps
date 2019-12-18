@@ -20,7 +20,7 @@ U 1 1 5DF6F14B
 P 2600 3100
 F 0 "U1" H 2600 1211 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 2600 1120 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2600 3100 50  0001 C CIN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 2600 3100 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2600 3100 50  0001 C CNN
 	1    2600 3100
 	1    0    0    -1  
@@ -2036,17 +2036,6 @@ $EndComp
 Wire Wire Line
 	12000 8900 12200 8900
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX-RWin1
-U 1 1 5E258093
-P 12900 8750
-F 0 "MX-RWin1" H 12933 8973 60  0000 C CNN
-F 1 "MX-NoLED" H 12933 8899 20  0000 C CNN
-F 2 "Alps_Only:ALPS-1U" H 12275 8725 60  0001 C CNN
-F 3 "" H 12275 8725 60  0001 C CNN
-	1    12900 8750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D65
 U 1 1 5E258099
 P 12650 9000
@@ -2580,7 +2569,7 @@ F 1 "MX-NoLED" H 12772 9369 20  0000 R CNN
 F 2 "Alps_Only:ALPS-1.25U" H 12275 9325 60  0001 C CNN
 F 3 "" H 12275 9325 60  0001 C CNN
 	1    12900 9350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX-LAlt2
@@ -2591,18 +2580,7 @@ F 1 "MX-NoLED" H 7572 9369 20  0000 R CNN
 F 2 "Alps_Only:ALPS-1.25U" H 7075 9325 60  0001 C CNN
 F 3 "" H 7075 9325 60  0001 C CNN
 	1    7700 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX-LWin2
-U 1 1 5E552419
-P 7050 9350
-F 0 "MX-LWin2" H 6922 9295 60  0000 R CNN
-F 1 "MX-NoLED" H 6922 9369 20  0000 R CNN
-F 2 "Alps_Only:ALPS-1.25U" H 6425 9325 60  0001 C CNN
-F 3 "" H 6425 9325 60  0001 C CNN
-	1    7050 9350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX-LCtrl2
@@ -2613,7 +2591,7 @@ F 1 "MX-NoLED" H 5622 9369 20  0000 R CNN
 F 2 "Alps_Only:ALPS-1.25U" H 5125 9325 60  0001 C CNN
 F 3 "" H 5125 9325 60  0001 C CNN
 	1    5750 9350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Text GLabel 5200 6100 0    50   Input ~ 0
 ROW0
@@ -2723,30 +2701,6 @@ Connection ~ 10450 8700
 Wire Wire Line
 	10250 8900 10250 9500
 Connection ~ 10250 8900
-Wire Wire Line
-	7850 8700 7850 9300
-Connection ~ 7850 8700
-Wire Wire Line
-	7650 8900 7650 9500
-Connection ~ 7650 8900
-Wire Wire Line
-	7200 8700 7200 9300
-Connection ~ 7200 8700
-Wire Wire Line
-	7000 8900 7000 9500
-Connection ~ 7000 8900
-Wire Wire Line
-	5900 8700 5900 9300
-Connection ~ 5900 8700
-Wire Wire Line
-	5700 8900 5700 9500
-Connection ~ 5700 8900
-Wire Wire Line
-	13050 8700 13050 9300
-Connection ~ 13050 8700
-Wire Wire Line
-	12850 8900 12850 9500
-Connection ~ 12850 8900
 Text Label 10000 1800 0    50   ~ 0
 D-
 Text Label 10000 1900 0    50   ~ 0
@@ -2759,4 +2713,50 @@ Text Label 1700 2700 0    50   ~ 0
 D-
 Text Label 900  2700 0    50   ~ 0
 D-
+Wire Wire Line
+	5900 8700 5900 9400
+Connection ~ 5900 8700
+Wire Wire Line
+	5700 9200 5700 8900
+Connection ~ 5700 8900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX-LWin2
+U 1 1 5E552419
+P 7050 9350
+F 0 "MX-LWin2" H 6922 9295 60  0000 R CNN
+F 1 "MX-NoLED" H 6922 9369 20  0000 R CNN
+F 2 "Alps_Only:ALPS-1.25U" H 6425 9325 60  0001 C CNN
+F 3 "" H 6425 9325 60  0001 C CNN
+	1    7050 9350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 8900 7000 9200
+Connection ~ 7000 8900
+Wire Wire Line
+	7200 8700 7200 9400
+Connection ~ 7200 8700
+Wire Wire Line
+	7650 8900 7650 9200
+Connection ~ 7650 8900
+Wire Wire Line
+	7850 8700 7850 9400
+Connection ~ 7850 8700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX-RWin1
+U 1 1 5E258093
+P 12900 8750
+F 0 "MX-RWin1" H 12933 8973 60  0000 C CNN
+F 1 "MX-NoLED" H 12933 8899 20  0000 C CNN
+F 2 "Alps_Only:ALPS-1.5U" H 12275 8725 60  0001 C CNN
+F 3 "" H 12275 8725 60  0001 C CNN
+	1    12900 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 8900 12850 9200
+Connection ~ 12850 8900
+Wire Wire Line
+	13050 8700 13050 9400
+Connection ~ 13050 8700
 $EndSCHEMATC
