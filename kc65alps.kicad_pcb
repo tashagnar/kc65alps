@@ -1976,7 +1976,7 @@
   )
 
   (module Alps_Only:ALPS-1U (layer F.Cu) (tedit 5CF31DEF) (tstamp 5DFA0A6C)
-    (at 30.95625 127 180)
+    (at 33.3375 127 180)
     (path /5E33E7AA)
     (fp_text reference MX-Caps3 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2003,7 +2003,7 @@
   )
 
   (module Alps_Only:ALPS-1U (layer F.Cu) (tedit 5CF31DEF) (tstamp 5DFA0A5A)
-    (at 28.575 127)
+    (at 30.95625 127)
     (path /5E29A0A7)
     (fp_text reference MX-Caps2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2029,8 +2029,8 @@
       (net 100 COL0))
   )
 
-  (module Alps_Only:ALPS-1U (layer F.Cu) (tedit 5CF31DEF) (tstamp 5DFA0A48)
-    (at 33.3375 127)
+  (module Alps_Only:ALPS-1U (layer F.Cu) (tedit 5CF31DEF) (tstamp 5DF9BCB1)
+    (at 35.71875 127)
     (path /5E21EF8E)
     (fp_text reference MX-Caps1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
