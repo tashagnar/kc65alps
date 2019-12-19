@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5DF6F14B
-P 2600 3100
-F 0 "U1" H 2600 1211 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2600 1120 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 2600 3100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2600 3100 50  0001 C CNN
-	1    2600 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0101
 U 1 1 5DF7211E
 P 2500 1150
@@ -345,18 +334,12 @@ Text GLabel 1700 1600 0    50   Input ~ 0
 RST
 Wire Wire Line
 	1700 1600 1950 1600
-Text GLabel 3400 1900 2    50   Input ~ 0
+Text GLabel 3750 2000 2    50   Input ~ 0
 MISO
-Text GLabel 3400 1800 2    50   Input ~ 0
+Text GLabel 3750 1800 2    50   Input ~ 0
 MOSI
-Text GLabel 3400 1700 2    50   Input ~ 0
+Text GLabel 3750 1700 2    50   Input ~ 0
 SCK
-Wire Wire Line
-	3200 1700 3400 1700
-Wire Wire Line
-	3400 1800 3200 1800
-Wire Wire Line
-	3200 1900 3400 1900
 $Comp
 L Connector:AVR-ISP-6 J2
 U 1 1 5DF707AD
@@ -2759,4 +2742,131 @@ Wire Wire Line
 Wire Wire Line
 	14600 5700 14600 5900
 Connection ~ 14600 5900
+Text GLabel 3400 1600 2    50   Input ~ 0
+ROW3
+Wire Wire Line
+	3200 1600 3400 1600
+Text GLabel 3750 1600 2    50   Input ~ 0
+COL0
+Text GLabel 3750 1900 2    50   Input ~ 0
+COL1
+Text GLabel 3400 2500 2    50   Input ~ 0
+COL2
+Wire Wire Line
+	3700 1600 3700 1700
+Wire Wire Line
+	3700 1700 3200 1700
+Wire Wire Line
+	3700 1600 3750 1600
+Wire Wire Line
+	3700 1700 3750 1700
+Connection ~ 3700 1700
+Wire Wire Line
+	3200 1800 3700 1800
+Wire Wire Line
+	3700 1800 3700 1900
+Wire Wire Line
+	3700 1900 3750 1900
+Connection ~ 3700 1800
+Wire Wire Line
+	3700 1800 3750 1800
+Wire Wire Line
+	3650 1900 3650 2000
+Wire Wire Line
+	3200 1900 3650 1900
+Text GLabel 3400 2900 2    50   Input ~ 0
+ROW0
+Text GLabel 3400 3000 2    50   Input ~ 0
+ROW1
+Text GLabel 3400 2800 2    50   Input ~ 0
+ROW2
+Wire Wire Line
+	3200 2800 3400 2800
+Wire Wire Line
+	3200 2900 3400 2900
+Wire Wire Line
+	3200 3000 3400 3000
+Text GLabel 3400 4000 2    50   Input ~ 0
+ROW4
+Wire Wire Line
+	3400 4000 3200 4000
+Text GLabel 3400 4400 2    50   Input ~ 0
+COL7
+Text GLabel 3400 4300 2    50   Input ~ 0
+COL10
+Text GLabel 3400 4200 2    50   Input ~ 0
+COL11
+Text GLabel 3400 4100 2    50   Input ~ 0
+COL13
+Text GLabel 3400 4500 2    50   Input ~ 0
+COL3
+Wire Wire Line
+	3200 4100 3400 4100
+Wire Wire Line
+	3200 4200 3400 4200
+Wire Wire Line
+	3200 4300 3400 4300
+Wire Wire Line
+	3200 4400 3400 4400
+Wire Wire Line
+	3200 4500 3400 4500
+Text GLabel 3750 2400 2    50   Input ~ 0
+COL4
+Text GLabel 3750 2300 2    50   Input ~ 0
+COL5
+Text GLabel 3750 2200 2    50   Input ~ 0
+COL6
+Text GLabel 3400 3500 2    50   Input ~ 0
+COL8
+Text GLabel 3400 3400 2    50   Input ~ 0
+COL9
+Text GLabel 3400 3100 2    50   Input ~ 0
+COL12
+Text GLabel 3400 3200 2    50   Input ~ 0
+COL14
+Text GLabel 3400 3300 2    50   Input ~ 0
+COL15
+Wire Wire Line
+	3200 2000 3600 2000
+Wire Wire Line
+	3600 2000 3600 2200
+Wire Wire Line
+	3600 2200 3750 2200
+Wire Wire Line
+	3200 2100 3550 2100
+Wire Wire Line
+	3550 2100 3550 2300
+Wire Wire Line
+	3550 2300 3750 2300
+Wire Wire Line
+	3200 2200 3500 2200
+Wire Wire Line
+	3500 2200 3500 2400
+Wire Wire Line
+	3500 2400 3750 2400
+Wire Wire Line
+	3200 3100 3400 3100
+Wire Wire Line
+	3400 3200 3200 3200
+Wire Wire Line
+	3200 3300 3400 3300
+Wire Wire Line
+	3400 3400 3200 3400
+Wire Wire Line
+	3200 3500 3400 3500
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5DF6F14B
+P 2600 3100
+F 0 "U1" H 2600 1211 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2600 1120 50  0000 C CNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 2600 3100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2500 3400 2500
+Wire Wire Line
+	3650 2000 3750 2000
 $EndSCHEMATC
