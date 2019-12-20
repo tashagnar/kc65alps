@@ -2790,15 +2790,15 @@ Text GLabel 3400 4000 2    50   Input ~ 0
 ROW4
 Wire Wire Line
 	3400 4000 3200 4000
-Text GLabel 3400 4400 2    50   Input ~ 0
+Text GLabel 3400 4200 2    50   Input ~ 0
 COL7
 Text GLabel 3400 4300 2    50   Input ~ 0
 COL10
-Text GLabel 3400 4200 2    50   Input ~ 0
+Text GLabel 3400 4400 2    50   Input ~ 0
 COL11
-Text GLabel 3400 4100 2    50   Input ~ 0
-COL13
 Text GLabel 3400 4500 2    50   Input ~ 0
+COL13
+Text GLabel 3400 4100 2    50   Input ~ 0
 COL3
 Wire Wire Line
 	3200 4100 3400 4100

@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5DF6F14B
-P 2600 3100
-F 0 "U1" H 2600 1211 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2600 1120 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 2600 3100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2600 3100 50  0001 C CNN
-	1    2600 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0101
 U 1 1 5DF7211E
 P 2500 1150
@@ -2761,7 +2750,7 @@ Text GLabel 3750 1600 2    50   Input ~ 0
 COL0
 Text GLabel 3750 1900 2    50   Input ~ 0
 COL1
-Text GLabel 3750 2100 2    50   Input ~ 0
+Text GLabel 3400 2500 2    50   Input ~ 0
 COL2
 Wire Wire Line
 	3700 1600 3700 1700
@@ -2782,18 +2771,9 @@ Connection ~ 3700 1800
 Wire Wire Line
 	3700 1800 3750 1800
 Wire Wire Line
-	3750 2100 3700 2100
-Wire Wire Line
-	3700 2100 3700 2000
-Wire Wire Line
-	3700 2000 3750 2000
-Wire Wire Line
 	3650 1900 3650 2000
 Wire Wire Line
-	3650 2000 3700 2000
-Wire Wire Line
 	3200 1900 3650 1900
-Connection ~ 3700 2000
 Text GLabel 3400 2900 2    50   Input ~ 0
 ROW0
 Text GLabel 3400 3000 2    50   Input ~ 0
@@ -2874,4 +2854,19 @@ Wire Wire Line
 	3400 3400 3200 3400
 Wire Wire Line
 	3200 3500 3400 3500
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5DF6F14B
+P 2600 3100
+F 0 "U1" H 2600 1211 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2600 1120 50  0000 C CNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 2600 3100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2500 3400 2500
+Wire Wire Line
+	3650 2000 3750 2000
 $EndSCHEMATC
