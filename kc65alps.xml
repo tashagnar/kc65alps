@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\GitHub\kc65alps\kc65alps.sch</source>
+    <date>1/9/2020 6:19:34 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>kc65alps.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF797B4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7AE47</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7C528</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7DF7A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7F44F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7FCE1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF80203</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF8FBB8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF92596</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF93C1A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9EA48</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AVR-ISP-6</value>
+      <footprint>random-keyboard-parts:Reset_Pretty-Mask</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF707AD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>random-keyboard-parts:JST-SR-4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF85843</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF85C63</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF74D58</tstamp>
+    </comp>
+    <comp ref="MX-Esc1">
+      <value>MX-NoLED</value>
+      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF931BD</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF95296</tstamp>
+    </comp>
+    <comp ref="MX-1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF980DE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF980E4</tstamp>
+    </comp>
+    <comp ref="MX-2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF99B41</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF99B47</tstamp>
+    </comp>
+    <comp ref="MX-3">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9C99B</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9C9A1</tstamp>
+    </comp>
+    <comp ref="MX-4">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9E11D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF9E123</tstamp>
+    </comp>
+    <comp ref="MX-5">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBBFEC</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBBFF2</tstamp>
+    </comp>
+    <comp ref="MX-6">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBBFF9</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBBFFF</tstamp>
+    </comp>
+    <comp ref="MX-7">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBC006</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBC00C</tstamp>
+    </comp>
+    <comp ref="MX-8">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBC013</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBC019</tstamp>
+    </comp>
+    <comp ref="MX-9">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBC020</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFBC026</tstamp>
+    </comp>
+    <comp ref="MX-0">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC3237</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC323D</tstamp>
+    </comp>
+    <comp ref="MX--1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC3244</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC324A</tstamp>
+    </comp>
+    <comp ref="MX-=1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC3251</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC3257</tstamp>
+    </comp>
+    <comp ref="MX-`1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC325E</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC3264</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC3271</tstamp>
+    </comp>
+    <comp ref="MX-PgUp1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC5B3B</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC5B41</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E00195E</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001978</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001985</tstamp>
+    </comp>
+    <comp ref="MX-E1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E00198C</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001992</tstamp>
+    </comp>
+    <comp ref="MX-R1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001999</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E00199F</tstamp>
+    </comp>
+    <comp ref="MX-T1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019A6</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019AC</tstamp>
+    </comp>
+    <comp ref="MX-Y1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019B3</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019B9</tstamp>
+    </comp>
+    <comp ref="MX-U1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019C0</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019C6</tstamp>
+    </comp>
+    <comp ref="MX-I1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019CD</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019D3</tstamp>
+    </comp>
+    <comp ref="MX-O1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019DA</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019E0</tstamp>
+    </comp>
+    <comp ref="MX-P1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019E7</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019ED</tstamp>
+    </comp>
+    <comp ref="MX-[1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019F4</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0019FA</tstamp>
+    </comp>
+    <comp ref="MX-]1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001A01</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001A07</tstamp>
+    </comp>
+    <comp ref="MX-\1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001A0E</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001A14</tstamp>
+    </comp>
+    <comp ref="MX-PgDn1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001A1B</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001A21</tstamp>
+    </comp>
+    <comp ref="MX-Caps1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EF8E</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EF94</tstamp>
+    </comp>
+    <comp ref="MX-A1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFA8</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFAE</tstamp>
+    </comp>
+    <comp ref="MX-S1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFB5</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFBB</tstamp>
+    </comp>
+    <comp ref="MX-D1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFC2</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFC8</tstamp>
+    </comp>
+    <comp ref="MX-F1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFCF</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFD5</tstamp>
+    </comp>
+    <comp ref="MX-G1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFDC</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFE2</tstamp>
+    </comp>
+    <comp ref="MX-H1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFE9</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFEF</tstamp>
+    </comp>
+    <comp ref="MX-J1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFF6</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21EFFC</tstamp>
+    </comp>
+    <comp ref="MX-K1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F003</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F009</tstamp>
+    </comp>
+    <comp ref="MX-L1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F010</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F016</tstamp>
+    </comp>
+    <comp ref="MX-;1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F01D</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F023</tstamp>
+    </comp>
+    <comp ref="MX-'1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F02A</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F030</tstamp>
+    </comp>
+    <comp ref="MX-Enter1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-2.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F037</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F03D</tstamp>
+    </comp>
+    <comp ref="MX-Super1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F051</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F057</tstamp>
+    </comp>
+    <comp ref="MX-LShift1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-2.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F06B</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F071</tstamp>
+    </comp>
+    <comp ref="MX-Z1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F078</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F07E</tstamp>
+    </comp>
+    <comp ref="MX-X1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F085</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F08B</tstamp>
+    </comp>
+    <comp ref="MX-C1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F092</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F098</tstamp>
+    </comp>
+    <comp ref="MX-V1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F09F</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0A5</tstamp>
+    </comp>
+    <comp ref="MX-B1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0AC</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0B2</tstamp>
+    </comp>
+    <comp ref="MX-N1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0B9</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0BF</tstamp>
+    </comp>
+    <comp ref="MX-M1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0C6</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0CC</tstamp>
+    </comp>
+    <comp ref="MX-,1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0D3</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0D9</tstamp>
+    </comp>
+    <comp ref="MX-.1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0E0</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0E6</tstamp>
+    </comp>
+    <comp ref="MX-/1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0ED</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F0F3</tstamp>
+    </comp>
+    <comp ref="MX-RShift1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.75U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F107</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F10D</tstamp>
+    </comp>
+    <comp ref="MX-UArrow1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F114</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F11A</tstamp>
+    </comp>
+    <comp ref="MX-Fn1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F121</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21F127</tstamp>
+    </comp>
+    <comp ref="MX-LCtrl1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258004</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25800A</tstamp>
+    </comp>
+    <comp ref="MX-LWin1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25801E</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258024</tstamp>
+    </comp>
+    <comp ref="MX-LAlt1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25802B</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258031</tstamp>
+    </comp>
+    <comp ref="MX-Space1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-7U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25805F</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258065</tstamp>
+    </comp>
+    <comp ref="MX-RAlt1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258086</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25808C</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258099</tstamp>
+    </comp>
+    <comp ref="MX-LArrow1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2580AD</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2580B3</tstamp>
+    </comp>
+    <comp ref="MX-DArrow1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2580BA</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2580C0</tstamp>
+    </comp>
+    <comp ref="MX-RArrow1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2580C7</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>SOD-123</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2580CD</tstamp>
+    </comp>
+    <comp ref="MX-Caps2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E29A0A7</tstamp>
+    </comp>
+    <comp ref="MX-Caps3">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E33E7AA</tstamp>
+    </comp>
+    <comp ref="MX-Backspace2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-2U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E470851</tstamp>
+    </comp>
+    <comp ref="MX-Space2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-6.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E11EB</tstamp>
+    </comp>
+    <comp ref="MX-RWin2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5224A1</tstamp>
+    </comp>
+    <comp ref="MX-LAlt2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E54FCFF</tstamp>
+    </comp>
+    <comp ref="MX-LCtrl2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5538F6</tstamp>
+    </comp>
+    <comp ref="MX-W1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E00197F</tstamp>
+    </comp>
+    <comp ref="MX-Q1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001972</tstamp>
+    </comp>
+    <comp ref="MX-Tab1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E001958</tstamp>
+    </comp>
+    <comp ref="MX-LWin2">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.25U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E552419</tstamp>
+    </comp>
+    <comp ref="MX-RWin1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1.5U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E258093</tstamp>
+    </comp>
+    <comp ref="MX-Backspace1">
+      <value>MX-NoLED</value>
+      <footprint>Alps_Only:ALPS-1U</footprint>
+      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC326B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-AU</value>
+      <footprint>Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF6F14B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-AU">
+      <aliases>
+        <alias>ATmega16U4RC-AU</alias>
+        <alias>ATmega32U4-AU</alias>
+        <alias>ATmega32U4RC-AU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="3state"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="3state"/>
+        <pin num="9" name="PB1" type="3state"/>
+        <pin num="10" name="PB2" type="3state"/>
+        <pin num="11" name="PB3" type="3state"/>
+        <pin num="12" name="PB7" type="3state"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="3state"/>
+        <pin num="19" name="PD1" type="3state"/>
+        <pin num="20" name="PD2" type="3state"/>
+        <pin num="21" name="PD3" type="3state"/>
+        <pin num="22" name="PD5" type="3state"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="3state"/>
+        <pin num="26" name="PD6" type="3state"/>
+        <pin num="27" name="PD7" type="3state"/>
+        <pin num="28" name="PB4" type="3state"/>
+        <pin num="29" name="PB5" type="3state"/>
+        <pin num="30" name="PB6" type="3state"/>
+        <pin num="31" name="PC6" type="3state"/>
+        <pin num="32" name="PC7" type="3state"/>
+        <pin num="33" name="~HWB~/PE2" type="3state"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="3state"/>
+        <pin num="37" name="PF6" type="3state"/>
+        <pin num="38" name="PF5" type="3state"/>
+        <pin num="39" name="PF4" type="3state"/>
+        <pin num="40" name="PF1" type="3state"/>
+        <pin num="41" name="PF0" type="3state"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MX_Alps_Hybrid" part="MX-NoLED">
+      <fields>
+        <field name="Reference">MX</field>
+        <field name="Value">MX-NoLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COL" type="passive"/>
+        <pin num="2" name="ROW" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>D:\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="MX_Alps_Hybrid">
+      <uri>D:\GitHub\kc65alps/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D66-Pad2)">
+      <node ref="MX-LArrow1" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D67-Pad2)">
+      <node ref="MX-DArrow1" pin="2"/>
+      <node ref="D67" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D68-Pad2)">
+      <node ref="D68" pin="2"/>
+      <node ref="MX-RArrow1" pin="2"/>
+    </net>
+    <net code="4" name="COL11">
+      <node ref="U1" pin="37"/>
+      <node ref="MX-RWin1" pin="1"/>
+      <node ref="MX--1" pin="1"/>
+      <node ref="MX-/1" pin="1"/>
+      <node ref="MX-;1" pin="1"/>
+      <node ref="MX-RWin2" pin="2"/>
+      <node ref="MX-P1" pin="1"/>
+    </net>
+    <net code="5" name="ROW2">
+      <node ref="D40" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="6" name="ROW0">
+      <node ref="D13" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="7" name="ROW1">
+      <node ref="D24" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="8" name="ROW4">
+      <node ref="D66" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D65" pin="1"/>
+      <node ref="U1" pin="41"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D61" pin="1"/>
+    </net>
+    <net code="9" name="COL7">
+      <node ref="MX-H1" pin="1"/>
+      <node ref="MX-Space1" pin="1"/>
+      <node ref="MX-Y1" pin="1"/>
+      <node ref="MX-Space2" pin="1"/>
+      <node ref="MX-N1" pin="1"/>
+      <node ref="U1" pin="39"/>
+      <node ref="MX-7" pin="1"/>
+    </net>
+    <net code="10" name="COL10">
+      <node ref="MX-RAlt1" pin="1"/>
+      <node ref="MX-O1" pin="1"/>
+      <node ref="MX-L1" pin="1"/>
+      <node ref="MX-.1" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="MX-0" pin="1"/>
+    </net>
+    <net code="11" name="COL13">
+      <node ref="U1" pin="36"/>
+      <node ref="MX-LArrow1" pin="1"/>
+      <node ref="MX-Enter1" pin="1"/>
+      <node ref="MX-`1" pin="1"/>
+      <node ref="MX-RShift1" pin="1"/>
+      <node ref="MX-]1" pin="1"/>
+    </net>
+    <net code="12" name="COL3">
+      <node ref="MX-S1" pin="1"/>
+      <node ref="MX-3" pin="1"/>
+      <node ref="MX-W1" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="MX-X1" pin="1"/>
+      <node ref="MX-LAlt2" pin="2"/>
+      <node ref="MX-LAlt1" pin="1"/>
+    </net>
+    <net code="13" name="COL12">
+      <node ref="MX-=1" pin="1"/>
+      <node ref="MX-'1" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="MX-[1" pin="1"/>
+    </net>
+    <net code="14" name="COL14">
+      <node ref="U1" pin="25"/>
+      <node ref="MX-UArrow1" pin="1"/>
+      <node ref="MX-\1" pin="1"/>
+      <node ref="MX-Backspace2" pin="1"/>
+      <node ref="MX-Backspace1" pin="1"/>
+      <node ref="MX-DArrow1" pin="1"/>
+    </net>
+    <net code="15" name="COL15">
+      <node ref="MX-RArrow1" pin="1"/>
+      <node ref="MX-Super1" pin="1"/>
+      <node ref="MX-PgDn1" pin="1"/>
+      <node ref="MX-Fn1" pin="1"/>
+      <node ref="U1" pin="22"/>
+      <node ref="MX-PgUp1" pin="1"/>
+    </net>
+    <net code="16" name="COL6">
+      <node ref="MX-G1" pin="1"/>
+      <node ref="MX-6" pin="1"/>
+      <node ref="MX-B1" pin="1"/>
+      <node ref="MX-T1" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="17" name="COL5">
+      <node ref="MX-5" pin="1"/>
+      <node ref="MX-R1" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="MX-V1" pin="1"/>
+      <node ref="MX-F1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D15-Pad2)">
+      <node ref="MX-Backspace2" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="MX-Backspace1" pin="2"/>
+    </net>
+    <net code="19" name="COL8">
+      <node ref="MX-U1" pin="1"/>
+      <node ref="MX-8" pin="1"/>
+      <node ref="MX-M1" pin="1"/>
+      <node ref="MX-J1" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="20" name="COL4">
+      <node ref="MX-E1" pin="1"/>
+      <node ref="MX-D1" pin="1"/>
+      <node ref="MX-4" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="MX-C1" pin="1"/>
+    </net>
+    <net code="21" name="COL2">
+      <node ref="MX-Z1" pin="1"/>
+      <node ref="MX-Q1" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="MX-LWin2" pin="2"/>
+      <node ref="MX-A1" pin="1"/>
+      <node ref="MX-LWin1" pin="1"/>
+      <node ref="MX-2" pin="1"/>
+    </net>
+    <net code="22" name="ROW3">
+      <node ref="D49" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="U1" pin="32"/>
+      <node ref="D59" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="24" name="COL9">
+      <node ref="U1" pin="26"/>
+      <node ref="MX-,1" pin="1"/>
+      <node ref="MX-9" pin="1"/>
+      <node ref="MX-I1" pin="1"/>
+      <node ref="MX-K1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="29" name="Net-(D65-Pad2)">
+      <node ref="D65" pin="2"/>
+      <node ref="MX-RWin2" pin="1"/>
+      <node ref="MX-RWin1" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="MX-Esc1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D2-Pad2)">
+      <node ref="MX-1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D3-Pad2)">
+      <node ref="MX-2" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D4-Pad2)">
+      <node ref="MX-3" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D5-Pad2)">
+      <node ref="MX-4" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="36" name="D-">
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="37" name="D+">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="38" name="VCC">
+      <node ref="F1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="39" name="+5V">
+      <node ref="F1" pin="2"/>
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="34"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D12-Pad2)">
+      <node ref="MX--1" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="MX-=1" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D14-Pad2)">
+      <node ref="MX-`1" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="MX-PgUp1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="MX-Tab1" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="MX-Q1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="MX-5" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="MX-6" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D8-Pad2)">
+      <node ref="MX-7" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="MX-8" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="MX-9" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="MX-0" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="53" name="RST">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="54" name="MISO">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="55" name="COL1">
+      <node ref="U1" pin="10"/>
+      <node ref="MX-LShift1" pin="1"/>
+      <node ref="MX-1" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="56" name="COL0">
+      <node ref="MX-Tab1" pin="1"/>
+      <node ref="MX-Caps1" pin="1"/>
+      <node ref="MX-LCtrl1" pin="1"/>
+      <node ref="MX-Esc1" pin="1"/>
+      <node ref="MX-Caps2" pin="2"/>
+      <node ref="MX-Caps3" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="MX-LCtrl2" pin="2"/>
+    </net>
+    <net code="57" name="Net-(C1-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="59" name="Net-(D48-Pad2)">
+      <node ref="MX-X1" pin="2"/>
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D49-Pad2)">
+      <node ref="MX-C1" pin="2"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D50-Pad2)">
+      <node ref="MX-V1" pin="2"/>
+      <node ref="D50" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D51-Pad2)">
+      <node ref="MX-B1" pin="2"/>
+      <node ref="D51" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+      <node ref="MX-N1" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2"/>
+      <node ref="MX-M1" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2"/>
+      <node ref="MX-;1" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D43-Pad2)">
+      <node ref="MX-'1" pin="2"/>
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2"/>
+      <node ref="MX-Enter1" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D45-Pad2)">
+      <node ref="MX-Super1" pin="2"/>
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D46-Pad2)">
+      <node ref="MX-LShift1" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2"/>
+      <node ref="MX-Z1" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D59-Pad2)">
+      <node ref="MX-Fn1" pin="2"/>
+      <node ref="D59" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D60-Pad2)">
+      <node ref="MX-LCtrl1" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="MX-LCtrl2" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D61-Pad2)">
+      <node ref="MX-LWin1" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="MX-LWin2" pin="1"/>
+    </net>
+    <net code="74" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2"/>
+      <node ref="MX-LAlt1" pin="2"/>
+      <node ref="MX-LAlt2" pin="1"/>
+    </net>
+    <net code="75" name="Net-(D63-Pad2)">
+      <node ref="MX-Space2" pin="2"/>
+      <node ref="MX-Space1" pin="2"/>
+      <node ref="D63" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D64-Pad2)">
+      <node ref="MX-RAlt1" pin="2"/>
+      <node ref="D64" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="MX-,1" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D55-Pad2)">
+      <node ref="MX-.1" pin="2"/>
+      <node ref="D55" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2"/>
+      <node ref="MX-/1" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2"/>
+      <node ref="MX-RShift1" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D58-Pad2)">
+      <node ref="D58" pin="2"/>
+      <node ref="MX-UArrow1" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="MX-I1" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D26-Pad2)">
+      <node ref="MX-O1" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="MX-P1" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="MX-[1" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2"/>
+      <node ref="MX-]1" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="MX-\1" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="MX-W1" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D20-Pad2)">
+      <node ref="MX-E1" pin="2"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D21-Pad2)">
+      <node ref="MX-R1" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="MX-T1" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="MX-Y1" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="MX-U1" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D36-Pad2)">
+      <node ref="MX-F1" pin="2"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D37-Pad2)">
+      <node ref="MX-G1" pin="2"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D38-Pad2)">
+      <node ref="MX-H1" pin="2"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+      <node ref="MX-J1" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D40-Pad2)">
+      <node ref="MX-K1" pin="2"/>
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D41-Pad2)">
+      <node ref="MX-L1" pin="2"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D31-Pad2)">
+      <node ref="MX-PgDn1" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="MX-Caps1" pin="2"/>
+      <node ref="MX-Caps2" pin="1"/>
+      <node ref="MX-Caps3" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="MX-A1" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="MX-S1" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D35-Pad2)">
+      <node ref="MX-D1" pin="2"/>
+      <node ref="D35" pin="2"/>
+    </net>
+  </nets>
+</export>
